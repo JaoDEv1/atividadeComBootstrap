@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula Bootstrap</title>
+    <!--link do bootstrap do css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><i class="bi bi-discord"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="alert alert-danger" role="alert">
+            A simple danger alert—check it out!
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="alert alert-info" role="alert">
+            A simple info alert—check it out!
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="alert alert-success" role="alert">
+            A simple success alert—check it out!
+          </div>
+        </div>
+      </div>
+
+      <h2 class="mb-4 mt-3">Nossos Produtos</h2>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <div class="card h-100" style="width: 50%;">
+            <img src="img/switch.jpg" class="card-img-top" alt="imagem de um switch lite" />
+            <div class="card-body">
+              <h5 class="card-title">Switch Lite</h5>
+              <p class="card-text">
+                Confira nosso produto 1 aqui, detalhes e informações
+              </p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 mb-3">
+          <div class="card h-100" style="width: 50%;">
+            <img src="img/switcholedmario.jpg" class="card-img-top" alt="imagem de um switch oled edição do mario" />
+            <div class="card-body">
+              <h5 class="card-title">Switch Oled Mario Edition</h5>
+              <p class="card-text">
+                Confira nosso produto 2 aqui, detalhes e informações
+              </p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 mb-3">
+          <div class="card h-100" style="width: 50%;">
+            <img src="img/switchV2.jpg" class="card-img-top" alt="imagem de um switch V2" />
+            <div class="card-body">
+              <h5 class="card-title">Switch V2</h5>
+              <p class="card-text">
+                Confira nosso produto 3 aqui, detalhes e informações
+              </p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--link do bootstrap do JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
